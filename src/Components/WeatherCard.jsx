@@ -1,4 +1,15 @@
-const WeatherCard = ({
+
+/* eslint-disable react/prop-types */
+import React, { useEffect, useState } from 'react'
+import { useDate } from '../Utils/useDate'
+import sun from '../assets/icons/sun.png'
+import cloud from '../assets/icons/Cloud.png'
+import fog from '../assets/icons/fog.png'
+import rain from '../assets/icons/rain.png'
+import snow from '../assets/icons/snow.png'
+import storm from '../assets/icons/storm.png'
+import wind from '../assets/icons/windy.png'
+import '../index.css'const WeatherCard = ({
   temperature,
   windspeed,
   humidity,
