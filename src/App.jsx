@@ -5,7 +5,7 @@ import network from './assets/images/network.jpg';
 
 import { useStateContext } from './Context';
 import { BackgroundLayout, WeatherCard, MiniCard } from './Components';
-
+    
 function App() {
   const [input, setInput] = useState('');
   const [feedback, setFeedback] = useState('');
