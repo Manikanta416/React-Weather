@@ -8,7 +8,6 @@ import Rainy from '../assets/images/Rainy.jpg'
 import Snow from '../assets/images/snow.jpg'
 import Stormy from '../assets/images/Stormy.jpg'
 
-const BackgroundLayout = () => {
 
   const { weather } = useStateContext()
   const [image, setImage] = useState(Clear)
